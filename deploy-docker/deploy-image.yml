@@ -2,7 +2,7 @@
 - name: Pull docker image of calculator
   hosts: all
   tasks:
-    - name: Pull docker image
+    - name: Ansible pull docker image
       docker_image:
         name: shubhamahlawat/calculator-devops
         source: pull
