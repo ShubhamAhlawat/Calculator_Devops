@@ -2,7 +2,7 @@
 - name: Pull docker image of calculator
   hosts: all
   tasks:
-    - name: Pull junit devops image
+    - name: Pull docker image
       docker_image:
         name: shubhamahlawat/calculator-devops
         source: pull
