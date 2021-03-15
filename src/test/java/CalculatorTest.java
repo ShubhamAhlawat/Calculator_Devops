@@ -39,9 +39,9 @@ public class CalculatorTest {
     @Test
     public void naturalLogTruePositive(){
         assertEquals("Natural Log of number for True Positive", 0, calculator.naturalLog(1), DELTA);
-        assertEquals("Natural Log of number for True Positive", 2.70, calculator.naturalLog(15), DELTA);
-        assertEquals("Natural Log of number for True Positive", 4.60, calculator.naturalLog(100), DELTA);
-        assertEquals("Natural Log of number for True Positive", 3.80, calculator.naturalLog(45), DELTA);
+        assertEquals("Natural Log of number for True Positive", 2.30, calculator.naturalLog(10), DELTA);
+        assertEquals("Natural Log of number for True Positive", 3.13, calculator.naturalLog(23), DELTA);
+        assertEquals("Natural Log of number for True Positive", 3.46, calculator.naturalLog(32), DELTA);
     }
 
     @Test
